@@ -1,0 +1,144 @@
+html{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body{
+  width:100%;
+  height:100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+.firstline{
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  width: 100%;
+  align-items: center;
+  z-index: 1;
+}
+
+.firstline img{
+  margin-left: 10px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.firstline ul{
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.firstline li{
+  padding: 10px;
+  text-decoration: underline;
+  color: white;
+}
+
+.banner{
+  height: 700px;
+  width: 1200px;
+  background: url("missionbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+
+.text{
+  width: 1200px;
+  text-align: center;
+  background-color: black;
+}
+
+.teatype{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.products{
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.images{
+  height: 300px;
+  width: 300px;
+
+}
+
+.image{
+  height: 200px;
+  width: 300px;
+  margin: 0;
+}
+
+.images h5{
+  padding-top: 10px;
+  margin-top: 0;
+  border-bottom: 0;
+}
+
+.locations{
+  background: url("locationsbackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 auto;
+  opacity: 0.7;
+  padding-top: 60px;
+}
+
+.locationscontainer{
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.locationstext{
+  padding-top: 20px;
+}
+
+.location{
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.footer{
+  max-height: 200px;
+}
+
+.copyright{
+  text-align: left;
+  position: relative;
+  left: 20px;
+}
